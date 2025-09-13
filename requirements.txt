@@ -1,0 +1,6 @@
+streamlit>=1.20.0
+pillow
+numpy
+pandas
+opencv-python-headless
+streamlit-image-coordinates
