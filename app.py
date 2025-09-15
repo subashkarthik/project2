@@ -80,4 +80,3 @@ if uploaded_file:
         st.info("Click anywhere on the image above to inspect the colour of that pixel.")
 else:
     st.info("Upload an image to begin.")
-
