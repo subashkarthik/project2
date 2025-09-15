@@ -16,7 +16,7 @@ Upload an image, then click anywhere on the image to get **exact RGB**, **HEX** 
 )
 
 # Prepare dataset
-DATA_PATH = os.path.join("colors.csv")
+DATA_PATH = os.path.join("colours1.csv")
 color_db = load_color_dataset(DATA_PATH)
 
 uploaded_file = st.file_uploader("Upload an image (PNG / JPG / JPEG)", type=["png", "jpg", "jpeg"])
@@ -80,3 +80,4 @@ if uploaded_file:
         st.info("Click anywhere on the image above to inspect the colour of that pixel.")
 else:
     st.info("Upload an image to begin.")
+
